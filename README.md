@@ -1,50 +1,27 @@
-# Welcome to your Expo app 👋
+# Asteroid Lookup App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Asteroid Lookup App is a mobile application designed to provide users with quick access to real-time asteroid data. Utilizing NASA's Near Earth Object (NEO) API, users can search by asteroid ID or retrieve random asteroid details, making it a handy tool for astronomy enthusiasts and learners.
 
-## Get started
+## About the Project
 
-1. Install dependencies
+The app serves as an accessible interface to NASA’s NEO database, showing key information about near-Earth asteroids such as their name, hazard status, and more. It is built with a minimalistic design that leverages React Native and Bootstrap for a clean, professional look.
 
-   ```bash
-   npm install
-   ```
+## Key Features
 
-2. Start the app
+- **Search by Asteroid ID**: Retrieve specific asteroid information.
+- **Random Asteroid Data**: Discover new asteroid data with each click.
+- **NASA NEO API**: Integrated for reliable, real-time asteroid information.
+- **User-Friendly Interface**: A polished, minimal design for smooth user experience.
 
-   ```bash
-    npx expo start
-   ```
+## Installation
 
-In the output, you'll find options to open the app in a
+To set up the project on your local machine, follow these steps:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Prerequisites
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **Node.js** (v14 or later) and **npm**: Download from [Node.js](https://nodejs.org/).
+- **Expo CLI**: If you don't have it, install it by running:
+  ```bash
+  npm install -g expo-cli
 
-## Get a fresh project
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
